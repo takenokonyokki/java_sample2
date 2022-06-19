@@ -4,6 +4,6 @@ public class Code8Matango {
 	char suffix;
 	
 	public void run() {
-		System.out.println("kinoko" + " " + this.suffix + " " + "run");
+		System.out.println("kinoko" + " " + this.suffix + " " + "あ");
 	}
 }
