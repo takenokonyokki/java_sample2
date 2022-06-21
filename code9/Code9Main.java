@@ -41,8 +41,8 @@ public class Code9Main {
 		h4.name = "moe"; //h4のアドレス情報からnameフィールドを探し出してmoeを代入
 		h4.hp = 200; //上記と同じく200を代入
 		Code9Hero h5 = new Code9Hero(); //Code9Heroのインスタンスを生成し、このメモリの先頭番地をh5に代入
- 		h5.name = "choko"; //h5のアドレス情報からnmaeフィールドを探し出してchokoを代入
-		h5.hp = 300; //上記と同じく300を代入
+// 		h5.name = "choko"; //h5のアドレス情報からnmaeフィールドを探し出してchokoを代入
+//		h5.hp = 300; //上記と同じく300を代入
 		Code9Wizard w = new Code9Wizard(); //Code9Wizardのインスタンスを生成し、このメモリの先頭番地をwに代入
 		w.name = "tomoko"; //wのアドレス情報からnameフィールドを探し出してtomokoを代入
 		w.hp = 20; //上記と同じく20を代入
@@ -59,4 +59,7 @@ public class Code9Main {
 		w.heal(h5); //上記と同じで、h5が引数として渡され、chokoのHPを10回復した=310と出力される
 		w.heal(h5); //2回目なので310に10がプラスされた状態になる
 	}
+	
+	
+	
 }

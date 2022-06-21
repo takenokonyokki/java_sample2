@@ -14,7 +14,7 @@ public class Code9Hero {
 	 *①メソッド名がクラス名と完全に等しい
 	 *②メソッド宣言に戻り値が記述されていない（voidもダメ）*/
 	public Code9Hero() {
-		this.hp = 100;
+		this("JVM"); //this(引数)の形は、同一クラス内の別コンストラクタの呼び出しをJVMに依頼する
 	}
 	
 	
