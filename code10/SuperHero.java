@@ -22,7 +22,7 @@ public class SuperHero extends Code10Hero {
 	
 	
 	//親インスタンスのメソッドを呼び出す
-	//super.メソッド名;
+	//super.メンバ名;　メンバとはフィールドとメソッドのこと
 	//superとは「今より1つ内側のインスタンス部分」を表す予約語である
 	public void attack(Code8Matango m) { //attackメソッドをオーバーライド
 		super.attack(m); //親インスタンスのattackメソッドを呼び出す
