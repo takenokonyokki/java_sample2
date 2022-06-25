@@ -20,8 +20,8 @@ public abstract class Charcter {
 	//上記のattackメソッドの問題点を解決する方法を以下に記述
 	
 	//詳細未定のメソッド（抽象メソッド）を宣言
-	//public abstrack 戻り値の型 メソッド名(引数リスト);
-	//abstrack（アブストラクト）とは、「抽象的」、「あいまい」という意味
+	//public abstract 戻り値の型 メソッド名(引数リスト);
+	//abstract（アブストラクト）とは、「抽象的」、「あいまい」という意味
 	//下記の記述は、抽象メソッドといい、attack()メソッドは宣言すべきだが、具体的にどう動くか、内容がどうなるかまでは現時点では確定できないので、メソッド内部の処理はここでは記載しないということ
 	public abstract void attack(Code8Matango m);
 }
