@@ -1,5 +1,5 @@
-//インタフェースを継承し宣言する場合
-//implementsを使う(extendsではない)
+//インタフェース同士、クラス同士の継承の場合は、extendsを使用
+//クラスがインタフェースを継承する際は、implementsを使う
 public class CleaningShop implements CleaningService {
 	String owberName;
 	String address;
