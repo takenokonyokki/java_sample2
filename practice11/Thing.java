@@ -4,7 +4,7 @@ public interface Thing {
 	//抽象メソッドの形は、 public abstract 戻り値の型 メソッド名（引数リスト）;
 	//インタフェースに宣言されるメソッドは、 public abstractが省略できる
 	
-	double getWeight(); //public abstract double getWeight()の
+	double getWeight(); //public abstract double getWeight()の省略形
 	
 	void setWeight(double weight); // public abstract void setWeight(double weight)の省略形
 }
