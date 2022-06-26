@@ -24,6 +24,10 @@ public class Code13Hero {
 		return this.name;
 	}
 	
+	public int getHp() {
+		return this.hp;
+	}
+	
 	
 	//setterメソッド
 	//ある特定のフィールドに指定された値を代入するだけのメソッドのこと
@@ -45,6 +49,11 @@ public class Code13Hero {
 		}
 		this.name = name; //thisを付け忘れると後々問題が起きる可能性が出る
 	}
+	
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+	
 	
 	//publicなので、どのクラスからでも使用可能
 	public void bye() {

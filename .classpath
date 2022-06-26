@@ -18,5 +18,6 @@
 	<classpathentry kind="src" path="code12"/>
 	<classpathentry kind="src" path="practice12"/>
 	<classpathentry kind="src" path="code13"/>
+	<classpathentry kind="src" path="practice13"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
